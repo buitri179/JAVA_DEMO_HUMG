@@ -13,16 +13,11 @@ public class Bai1{
         tich = x * y;
         thuong = x / y;
         du = x % y;
-        System.out.printf("tong: %f",tong);
-        System.out.println();
-        System.out.printf("hieu: %f",hieu);
-        System.out.println();
-        System.out.printf("tich: %f",tich);
-        System.out.println();
-        System.out.printf("thuong: %f",thuong);
-        System.out.println();
-        System.out.printf("du: %f",du);
-        System.out.println();
+        System.out.printf("\ntong: %f",tong);
+        System.out.printf("\nhieu: %f",hieu);
+        System.out.printf("\ntich: %f",tich);
+        System.out.printf("\nthuong: %f",thuong);
+        System.out.printf("\ndu: %f",du);
         if(x==y){
             System.out.println("2 so bang nhau");
         }
