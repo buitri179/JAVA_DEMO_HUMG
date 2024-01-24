@@ -9,7 +9,7 @@ public class GiaiPhuongTrinhBacNhat {
     double a,b,x;
     System.out.print("Nhap he so a: ");
     a = dt.nextDouble();
-    System.out.print("Nhap so b: ");
+    System.out.print("Nhap he so b: ");
     b = dt.nextDouble();
     if(b==0 && a==0){
         System.out.println("He phuong trinh co vo so nghiem");
