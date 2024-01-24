@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class GiaiPhuongTrinhBacNhat {
     
     public static void main(String[] args) {
-        Scanner dt =  new Scanner(System.in);
+        Scanner sc =  new Scanner(System.in);
     double a,b,x;
     System.out.print("Nhap he so a: ");
-    a = dt.nextDouble();
+    a = sc.nextDouble();
     System.out.print("Nhap he so b: ");
-    b = dt.nextDouble();
+    b = sc.nextDouble();
     if(b==0 && a==0){
         System.out.println("He phuong trinh co vo so nghiem");
     }
